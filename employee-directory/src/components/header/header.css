@@ -1,0 +1,13 @@
+.headerText {
+  min-height: 15vh;
+  margin: 0 auto;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px double rgb(255, 0, 149);
+  justify-content: center;
+  font-size: calc(24px + 2vmax);
+  color: white;
+  letter-spacing: 6px;
+  font-family: "Michroma", sans-serif;
+}

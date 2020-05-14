@@ -1,0 +1,23 @@
+.pagination {
+  display: flex;
+  width: 200px;
+  margin: 30px auto;
+}
+
+.page-item {
+  color: snow;
+  background-color: #212121;
+  box-shadow: -4px -4px 14px #353434, 4px 4px 14px #000000bb;
+  text-align: center;
+  font-family: "Michroma", sans-serif;
+}
+.active .page-link {
+  background-color: rgb(174, 0, 255) !important;
+  color: black !important;
+  border: none;
+}
+
+.page-item :hover {
+  background-color: #353434;
+  transform: scale(1.03);
+}

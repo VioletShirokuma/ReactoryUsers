@@ -1,0 +1,56 @@
+.employeeCount {
+  font-family: "Michroma", sans-serif;
+  text-align: center;
+  color: snow;
+  margin-top: 15px;
+  letter-spacing: 3px;
+}
+.table {
+  background-color: #212121;
+  box-shadow: -4px -4px 14px -9px rgb(177, 0, 168),
+    4px 4px 14px -9px rgb(234, 0, 255);
+  width: 90%;
+  margin: 40px auto;
+  font-family: "Michroma", sans-serif;
+  border-radius: 8px;
+}
+
+.avatar {
+  border-radius: 50%;
+  border: 1px solid rgb(255, 0, 179);
+  box-shadow: -4px -4px 14px #353434, 4px 4px 14px #000000bb;
+}
+
+.li-group {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  margin: 20px auto;
+}
+.list-group-item,
+.page-link {
+  color: snow;
+  background-color: #212121;
+  box-shadow: -4px -4px 14px #353434, 4px 4px 14px #000000bb;
+  text-align: center;
+  font-family: "Michroma", sans-serif;
+  border-right: 1px solid snow;
+}
+.list-group-item:last-child {
+  border: none;
+}
+.list-group-item:hover {
+  background-color: #353434;
+  transform: scale(1.05);
+}
+.active {
+  background-color: rgb(255, 0, 191) !important;
+  border: none;
+  color: black !important;
+}
+
+.sortIcon {
+  color: rgb(204, 0, 255);
+  margin: 3px;
+  font-size: 15px;
+}
