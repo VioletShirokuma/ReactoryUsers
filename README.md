@@ -9,7 +9,7 @@ An employee directory created with the use of React and its components.
 
 * Install all necessary dependcies (axios, bootstrap, font-awesome, lodash, @testing-library/jest-dom, @testing-library/react, @testing-library/user-event)
 
-* Navigate into the employee-directory folder
+* Navigate into the employee-directory folder in your terminal
 
 * Run "npm start" -- your window should open the React app of the Employee Directory in your Local Host
 
